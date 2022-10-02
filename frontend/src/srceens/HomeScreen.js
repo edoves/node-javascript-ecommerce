@@ -46,3 +46,7 @@ const HomeScreen = {
   },
 };
 export default HomeScreen;
+
+// target element to render home screen
+const main = document.getElementById('main')
+main.innerHTML = HomeScreen.render();
